@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>指示</title>
+<title>見知らぬ母校からの脱出</title>
 <style>
 :root{--bg:#fafaf7;--fg:#222;--sub:#888;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--fg:#eee;--sub:#999}}
@@ -31,7 +31,7 @@ function show(){
   var id = (location.hash || "").replace("#","");
   var m = instructions[id];
   document.getElementById("no").textContent = m ? "指示 " + id : "";
-  document.getElementById("msg").textContent = m || "QRコードを読み取ってください。";
+  document.getElementById("msg").textContent = m || "赤シートとブラックライトを入れ替えろ。";
 }
 show();
 window.addEventListener("hashchange", show);
